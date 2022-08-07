@@ -6,6 +6,10 @@
 */
 
 void setup(){
-  while(Serial.begin(9600)); //Opens Serial connection and waits until its established
-  Serial.println(Hello World!); //Sends "Hello World!" 
+  Serial.begin(9600); //Opens Serial connection and waits until its established
+  Serial.println("Hello World!"); //Sends "Hello World!" 
+}
+
+void loop(){
+
 }
