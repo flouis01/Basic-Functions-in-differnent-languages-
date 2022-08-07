@@ -10,7 +10,7 @@
 
 void setup(){
   pinMode(LED_Buldin, OUTPUT); //Sets LED_Buildin as output
-  pinMode(BTN_Input, INPUT_PULLUP); //Sets LED_Buildin as output
+  pinMode(BTN_Input, INPUT_PULLUP); //Sets BTN_Input as Input
 }
 
 void loop(){
